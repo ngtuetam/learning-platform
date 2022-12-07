@@ -3,3 +3,6 @@ djangorestframework
 django-cors-headers
 djoser
 whitenoise
+gunicorn
+
+
