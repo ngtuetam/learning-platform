@@ -1,19 +1,15 @@
 # learningplatform_fe
 
+## Docker Build
 
-## Project setup
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+docker build -t learning_platform .
 ```
 
-### Compiles and minifies for production
+### Docker Run
+
 ```
-npm run build
+docker run -d -p 8000:8000 learning_platform
 ```
 
 ### Customize configuration
